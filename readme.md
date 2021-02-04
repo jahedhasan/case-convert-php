@@ -1,4 +1,5 @@
-#convert number Bangla to English
+# convert number Bangla to English
+
 ~~~php
  public function bn2enNumber ($number){
     $search_array= array("১", "২", "৩", "৪", "৫", "৬", "৭", "৮", "৯", "০");
@@ -7,8 +8,6 @@
     return $en_number;
   }
 ~~~         
-
-
 
 
 
